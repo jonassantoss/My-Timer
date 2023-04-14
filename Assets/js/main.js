@@ -12,7 +12,7 @@ function iniciar() {
     countTime();
     let res = sendRes(time);
     timerDiv.innerHTML = res
-  },0.01)
+  },1000)
 }
 
 function pausar() {
